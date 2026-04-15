@@ -14,7 +14,7 @@ export const Nav = () => {
 
     return (
         <>
-            <nav className="flex flex-row items-center justify-around w-full h-24 shadow-2xs">
+            <nav className="flex flex-row items-center justify-around w-full h-20 shadow-2xs fixed z-50">
                 <div className="flex flex-col items-start gap-0.5">
                     <h1 className="text-xl text-primary font-serif">Lenguas Cecal</h1>
                     <h2 className="text-xs">INSTITUTO DE IDIOMAS</h2>
