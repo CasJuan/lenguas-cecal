@@ -9,7 +9,7 @@ export const CursosCard = ({ icon, titulo, descp, niveles, modalidades }) => {
         return icon;
     };
     return (
-        <div className="flex flex-col items-start justify-between gap-4 h-auto min-h-70 w-96 bg-[#F4F7FA] rounded-2xl shadow-md border border-gray-100 m-2 p-5 cursor-pointer transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl group">
+        <div className="flex flex-col items-start justify-between gap-4 h-auto min-h-70 w-96 bg-white rounded-2xl shadow-md border border-gray-100 m-2 p-5 cursor-pointer transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl group">
             <div className="h-12 w-12 bg-primary/10 flex items-center justify-center rounded-xl transition-all duration-300 group-hover:scale-110">
                 {renderIcon()}
             </div>

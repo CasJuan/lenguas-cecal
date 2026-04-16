@@ -13,7 +13,7 @@ const timeline = [
 
 export const Nosotros = () => {
   return (
-    <section id='nosotros' className='flex flex-row items-center justify-center w-full h-svh gap-2'>
+    <section id='nosotros' className='flex flex-row items-center justify-center w-full h-svh gap-2 '>
       <div className='w-1/3'>
         <span className="text-primary bg-hover w-40 h-auto p-3 rounded-2xl flex items-center justify-center">Sobre Nosotros</span>
         <h2 className='text-4xl font-bold'>Mas de 38 años formando profesionales bilingues</h2>
