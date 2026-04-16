@@ -5,6 +5,7 @@ import { Nav } from '../src/components/Nav'
 import { Hero } from '../src/components/Hero'
 import { Cursos } from './components/Cursos'
 import { Nosotros } from './components/Nosotros'
+import { Planes } from './components/Planes'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -13,6 +14,7 @@ createRoot(document.getElementById('root')).render(
       <Hero />
       <Cursos />
       <Nosotros/>
+      <Planes/>
     </div>
   </StrictMode>,
 )

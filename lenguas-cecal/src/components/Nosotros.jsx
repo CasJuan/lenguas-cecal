@@ -39,7 +39,7 @@ export const Nosotros = () => {
         <div className="space-y-8">
           {timeline.map((item, index) => (
             <div key={index} className="relative pl-12">
-              <div className="absolute left-0 top-1 w-8 h-8 rounded-full bg-primary/10 border-2 border-primary flex items-center justify-center z-50">
+              <div className="absolute left-0 top-1 w-8 h-8 rounded-full bg-primary/10 border-2 border-primary flex items-center justify-center z-10">
                 <div className="w-2 h-2 rounded-full bg-primary" />
               </div>
               <div className="bg-card p-4 rounded-lg border border-border/50 border-hover">
