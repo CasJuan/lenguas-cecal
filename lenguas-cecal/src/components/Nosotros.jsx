@@ -16,7 +16,7 @@ export const Nosotros = () => {
     <section id='nosotros' className='flex flex-row items-center justify-center w-full h-svh gap-2 '>
       <div className='w-1/3'>
         <span className="text-primary bg-hover w-40 h-auto p-3 rounded-2xl flex items-center justify-center">Sobre Nosotros</span>
-        <h2 className='text-4xl font-bold'>Mas de 38 años formando profesionales bilingues</h2>
+        <h2 className='text-4xl font-bold mt-3'>Mas de 38 años formando profesionales bilingues</h2>
         <div className='flex flex-col items-start justify-center gap-5'>
           <p className='text-tertiary text-base mt-5'>LENGUAS CECAL nacio en 1986 con la mision de brindar educacion de idiomas de calidad en Buenos Aires. Desde entonces, hemos formado a miles de estudiantes que hoy se desempenan exitosamente en ambitos profesionales internacionales.</p>
           <p className='text-tertiary text-base mb-5'>Nuestro compromiso es ofrecer una experiencia de aprendizaje integral, combinando metodologias tradicionales probadas con las ultimas tecnologias educativas.</p>
