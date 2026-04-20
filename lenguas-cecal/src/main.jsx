@@ -8,6 +8,7 @@ import { Nosotros } from './components/Nosotros'
 import { Planes } from './components/Planes'
 import { Testimonios } from './components/Testimonios'
 import { Contacto } from './components/Contacto'
+import { Footer } from './components/Footer'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -18,5 +19,6 @@ createRoot(document.getElementById('root')).render(
       <Planes/>
       <Testimonios/>
       <Contacto/>
+      <Footer/>
   </StrictMode>,
 )
