@@ -3,7 +3,7 @@ import { Quote, Star } from 'lucide-react'
 
 export const CardTestimo = ({ desc, nombre, profesion, curso }) => {
     return (
-        <div className='flex flex-col items-start justify-center gap-5 h-70 w-96 bg-white rounded-2xl shadow-2xl border border-hover'>
+        <div className='flex flex-col items-start justify-center gap-5 h-70 w-96 bg-white rounded-2xl shadow-2xl border border-hover cursor-pointer transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl group'>
             <Quote className='ml-5' color='rgb(0,86,164)' />
             <div className='flex flex-row items-center justify-center gap-2 ml-5'>
                 <Star size={15} color='rgb(0,86,164)' />

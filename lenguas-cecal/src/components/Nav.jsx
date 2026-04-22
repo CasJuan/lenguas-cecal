@@ -1,6 +1,7 @@
 import { PhoneCall, Menu } from "lucide-react";
 import { NavBarRespon } from "./NavBarRespon";
 import { useState } from "react";
+import logoInst from "../img/instituto.svg"
 
 
 export const Nav = () => {
@@ -19,10 +20,13 @@ export const Nav = () => {
     return (
         <>
             <nav className="flex flex-row items-center justify-around w-full h-20 shadow-2xs fixed z-50 bg-white">
-                <div className="flex flex-col items-start gap-0.5">
+                {/* <div className="flex flex-col items-start gap-0.5">
                     <h1 className="text-xl text-primary font-serif">Lenguas Cecal</h1>
                     <h2 className="text-xs">INSTITUTO DE IDIOMAS</h2>
-                </div>
+                </div> */}
+
+                <img src={logoInst} alt="Logo Instituto" className="w-32 md:w-40 h-auto" />
+
                 <ul className="hidden md:flex flex-row justify-evenly items-center gap-2">
                     {
                         navItems.map((item) => (

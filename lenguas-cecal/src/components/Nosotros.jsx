@@ -13,29 +13,29 @@ const timeline = [
 
 export const Nosotros = () => {
   return (
-    <section id='nosotros' className='flex flex-row items-center justify-center w-full h-svh gap-2 '>
-      <div className='w-1/3'>
-        <span className="text-primary bg-hover w-40 h-auto p-3 rounded-2xl flex items-center justify-center">Sobre Nosotros</span>
-        <h2 className='text-4xl font-bold mt-3'>Mas de 38 años formando profesionales bilingues</h2>
-        <div className='flex flex-col items-start justify-center gap-5'>
-          <p className='text-tertiary text-base mt-5'>LENGUAS CECAL nacio en 1986 con la mision de brindar educacion de idiomas de calidad en Buenos Aires. Desde entonces, hemos formado a miles de estudiantes que hoy se desempenan exitosamente en ambitos profesionales internacionales.</p>
-          <p className='text-tertiary text-base mb-5'>Nuestro compromiso es ofrecer una experiencia de aprendizaje integral, combinando metodologias tradicionales probadas con las ultimas tecnologias educativas.</p>
+    <section id='nosotros' className='flex flex-col lg:flex-row items-center justify-center w-full min-h-svh gap-10 lg:gap-8 px-4 py-16 max-w-7xl mx-auto'>
+      <div className='w-full lg:w-1/2 flex flex-col items-center lg:items-start text-center lg:text-left'>
+        <span className="text-primary bg-hover w-auto h-auto px-6 py-2 rounded-2xl flex items-center justify-center text-sm font-medium">Sobre Nosotros</span>
+        <h2 className='text-3xl md:text-4xl font-bold mt-4 tracking-wide'>Mas de 38 años formando profesionales bilingues</h2>
+        <div className='flex flex-col items-center lg:items-start justify-center gap-5'>
+          <p className='text-tertiary text-sm md:text-base mt-5'>LENGUAS CECAL nacio en 1986 con la mision de brindar educacion de idiomas de calidad en Buenos Aires. Desde entonces, hemos formado a miles de estudiantes que hoy se desempenan exitosamente en ambitos profesionales internacionales.</p>
+          <p className='text-tertiary text-sm md:text-base mb-5'>Nuestro compromiso es ofrecer una experiencia de aprendizaje integral, combinando metodologias tradicionales probadas con las ultimas tecnologias educativas.</p>
         </div>
-        <div className='flex flex-row items-center justify-center gap-5'>
-          <ul className='flex flex-col items-start justify-center gap-3'>
-            <li className='flex flex-row items-center justify-center gap-3 text-base'><BadgeCheck color="rgb(0,86,164)" className='h-4' /> Profesores certificados con experiencias internacional</li>
-            <li className='flex flex-row items-center justify-center gap-3'><BadgeCheck color="rgb(0,86,164)" className='h-4' /> Metodologia comunicativa y practica</li>
-            <li className='flex flex-row items-center justify-center gap-3'><BadgeCheck color="rgb(0,86,164)" className='h-4' /> Certificados oficiales reconocidos</li>
+        <div className='flex flex-col md:flex-row items-start justify-center gap-5 w-full'>
+          <ul className='flex flex-col items-start justify-center gap-4 w-full md:w-1/2'>
+            <li className='flex flex-row items-start justify-start gap-3 text-sm md:text-base text-left'><BadgeCheck color="rgb(0,86,164)" className='h-5 w-5 shrink-0 mt-0.5' /> Profesores certificados con experiencias internacional</li>
+            <li className='flex flex-row items-start justify-start gap-3 text-sm md:text-base text-left'><BadgeCheck color="rgb(0,86,164)" className='h-5 w-5 shrink-0 mt-0.5' /> Metodologia comunicativa y practica</li>
+            <li className='flex flex-row items-start justify-start gap-3 text-sm md:text-base text-left'><BadgeCheck color="rgb(0,86,164)" className='h-5 w-5 shrink-0 mt-0.5' /> Certificados oficiales reconocidos</li>
           </ul>
-          <ul className='flex flex-col items-start justify-center gap-3'>
-            <li className='flex flex-row items-center justify-center gap-3'><BadgeCheck color="rgb(0,86,164)" className='h-4' /> Grupos reducidos para atencion personalizada</li>
-            <li className='flex flex-row items-center justify-center gap-3'><BadgeCheck color="rgb(0,86,164)" className='h-4' /> Material didactico actualizado</li>
-            <li className='flex flex-row items-center justify-center gap-3'><BadgeCheck color="rgb(0,86,164)" className='h-4' /> Flexibilidad horaria y modalidades</li>
+          <ul className='flex flex-col items-start justify-center gap-4 w-full md:w-1/2'>
+            <li className='flex flex-row items-start justify-start gap-3 text-sm md:text-base text-left'><BadgeCheck color="rgb(0,86,164)" className='h-5 w-5 shrink-0 mt-0.5' /> Grupos reducidos para atencion personalizada</li>
+            <li className='flex flex-row items-start justify-start gap-3 text-sm md:text-base text-left'><BadgeCheck color="rgb(0,86,164)" className='h-5 w-5 shrink-0 mt-0.5' /> Material didactico actualizado</li>
+            <li className='flex flex-row items-start justify-start gap-3 text-sm md:text-base text-left'><BadgeCheck color="rgb(0,86,164)" className='h-5 w-5 shrink-0 mt-0.5' /> Flexibilidad horaria y modalidades</li>
           </ul>
         </div>
       </div>
-      <div className="relative w-1/2">
-        <div className="absolute left-4 top-0 bottom-0 w-0.5 bg-border bg-hover" />
+      <div className="relative w-full md:w-3/4 lg:w-1/2 lg:pl-10 mt-10 lg:mt-0 mx-auto">
+        <div className="absolute left-4 lg:left-14 top-0 bottom-0 w-0.5 bg-border bg-hover" />
         <div className="space-y-8">
           {timeline.map((item, index) => (
             <div key={index} className="relative pl-12">

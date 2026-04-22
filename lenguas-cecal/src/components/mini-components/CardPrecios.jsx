@@ -4,7 +4,7 @@ import { Check } from "lucide-react";
 
 export const CardPrecios = ({ title, desc, price, list }) => {
     return (
-        <div className="flex flex-col items-center justify-between gap-4 w-full h-full bg-white rounded-2xl shadow-md border border-gray-100 overflow-hidden cursor-pointer transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl group">
+        <div className="flex flex-col items-center justify-between gap-4 w-full min-h-full bg-white rounded-2xl shadow-md border border-gray-100 overflow-hidden cursor-pointer transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl group">
             <div className="w-full bg-primary flex flex-col items-center justify-center gap-1 py-6 px-4 transition-all duration-300 group-hover:py-8">
                 <h3 className="text-2xl font-bold text-white">{title}</h3>
                 <p className="text-sm text-white/70 text-center">{desc}</p>
@@ -14,7 +14,7 @@ export const CardPrecios = ({ title, desc, price, list }) => {
                 <em className="text-sm text-tertiary">/mes</em>
             </div>
             <div className="w-3/4 h-px bg-gray-100 rounded-full" />
-            <ul className="flex flex-col items-start justify-center gap-3 px-8 w-full">
+            <ul className="flex flex-col items-start justify-start gap-3 px-8 w-full flex-1">
                 {list.map((item) => (
                     <li key={item} className="flex flex-row items-center gap-2">
                         <span className="bg-primary/10 rounded-full p-1">

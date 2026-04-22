@@ -1,5 +1,9 @@
 import React from 'react'
 import footerBg from "../img/texture-lab-1776709607075.png"
+import instagram from "../img/instagram-svgrepo-com.svg"
+import wsp from "../img/whatsapp-svgrepo-com.svg"
+import logoInst from "../img/instituto.svg"
+
 
 export const Footer = () => {
 
@@ -22,19 +26,21 @@ export const Footer = () => {
             />
 
             <div className="relative z-10 flex flex-col items-start gap-4 w-full md:w-1/4">
-                <div className="flex flex-col items-start gap-0.5">
+                {/* <div className="flex flex-col items-start gap-0.5">
                     <h1 className="text-xl text-whiteP font-serif">Lenguas Cecal</h1>
                     <h2 className="text-xs text-tertiary tracking-widest">INSTITUTO DE IDIOMAS</h2>
-                </div>
+                </div> */}
+                <img src={logoInst} alt="Logo Instituto" className="w-32 md:w-40 h-auto" />
+
                 <p className="text-sm text-tertiary leading-relaxed">
                     Más de 38 años formando profesionales bilingües en Buenos Aires. Tu futuro comienza con un nuevo idioma.
                 </p>
                 <div className="flex flex-row gap-3 mt-1">
-                    <a href="#" className="bg-white/10 hover:bg-white/20 transition-colors duration-200 h-9 w-9 rounded-xl flex items-center justify-center">
+                    <a href="#" className="bg-gray-400 hover:bg-gray-100 transition-colors duration-200 h-9 w-9 rounded-xl flex items-center justify-center">
+                        <img className='w-5 h-5 text-white' src={instagram} alt="" />
                     </a>
-                    <a href="#" className="bg-white/10 hover:bg-white/20 transition-colors duration-200 h-9 w-9 rounded-xl flex items-center justify-center">
-                    </a>
-                    <a href="#" className="bg-white/10 hover:bg-white/20 transition-colors duration-200 h-9 w-9 rounded-xl flex items-center justify-center">
+                    <a href="#" className="bg-gray-400 hover:bg-gray-100 transition-colors duration-200 h-9 w-9 rounded-xl flex items-center justify-center">
+                        <img className='w-5 h-5 text-white' src={wsp} alt="" />
                     </a>
                 </div>
             </div>
